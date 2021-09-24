@@ -1,0 +1,45 @@
+@charset "urf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+    background-color: blanchedalmond
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.top_nav{
+    font-family: "Noto Sans KR", sans-serif;
+    display: flex;
+    background-color: white;
+    width: 1920px;
+    height: 74px;
+    opacity: 1;
+    justify-content: right;
+}
+
+.logo{
+    font-size: 32px;
+    color: #FF615B;
+    margin-left: 28px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.login{
+    font-size: 18px;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sign_up{
+    font-size: 18px;
+    color: #FF615B;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 24px;
+    margin-right: 60px;
+}
