@@ -5,10 +5,12 @@ body {
 .sideProfileContent {
     float: left;
     width: 200px;
-    height: 230px;
+    height: 650px;
     background-color: #ffffff;
     text-align: center;
     padding-top: 35px;
+    border: 0;
+    margin: 0;
 }
 
 .userName {
@@ -59,4 +61,42 @@ body {
     box-sizing: border-box;
 }
 
+.sideSubMenuBar {
+    text-align: left;
+    margin-top: 30px;
+}
 
+.submenuElement {
+    display: flex;
+    width: 87.5%;
+    height: 40px;
+    padding: 5px 5px 5px 15px;
+}
+
+.submenuIcon {
+    margin-top: 10px;
+    flex-basis: 5px;
+    height: 20px;
+    z-index: 2;
+}
+
+.submenuText {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #6b6b6b;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.submenuElement:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 5px solid rgb(253, 108, 108);
+    color: rgb(253, 108, 108);
+    transition: color 0.3s; 
+    z-index: 1;
+    cursor: pointer;
+}
+
+.submenuText:hover {
+    color: rgb(253, 108, 108);
+}
