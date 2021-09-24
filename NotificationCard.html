@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotificationCard</title>
+
+    <link rel="stylesheet" href="./css/NotificationCard.css"/>
+
+    <script type="text/javascript">
+        function ChangeBtn(){
+            document.getElementById("btnId").src="/img/likeBtn_after.png";
+        }
+    </script>
+</head>
+<body>
+
+    <div class="notificationsComponent">
+        <div class="NotifyElement">
+            <div class="ImgPart">
+                <img class="ImgElement" src="img/profileImg.png">
+            </div>
+            <div class="contentPart">
+                <p class="notifyContent">박멋사님이 FIRE 1단계를 완료하였습니다.</p>
+            </div>
+            <div onclick="ChangeImg()">
+                <img id="btnId" src="/img/likeBtn_before.png">
+            </div>
+        </div>
+
+        <div class="NotifyElement">
+            <div class="ImgPart">
+                <img class="ImgElement" src="img/profileImg.png">
+            </div>
+            <div class="contentPart">
+                <p class="notifyContent">한멋사님이 '절약왕' 미션을 완수하셨습니다.</p>
+            </div>
+            <div onclick="ChangeImg()">
+                <img id="btnId" src="/img/likeBtn_before.png">
+            </div>
+        </div>
+
+        <div class="NotifyElement">
+            <div class="ImgPart">
+                <img class="ImgElement" src="img/profileImg.png">
+            </div>
+            <div class="contentPart">
+                <p class="notifyContent">이멋사님이 '과소비 멈춰!' 미션을 완수하셨습니다.</p>
+            </div>
+            <div onclick="ChangeImg()">
+                <img id="btnId" src="/img/likeBtn_before.png">
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    background-color: lightgray;
+}
+
+.notificationsComponent {
+    flex-direction: row;
+    width: 668px;
+    height: 276px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px #c3c3c3;
+    border-radius: 7px;
+    /* align-items: center; */
+}
+
+.NotifyElement {
+    width: 668px;
+    height: 92px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #c3c3c3;
+    line-height: 92px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.ImgPart {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.contentPart {
+    margin-left: 30px;
+    flex-basis: 450px;
+}
+
+#btnId {
+    /* position: flex; */
+    width: 30px;
+    height: 30px;
+
+    float: right;
+}
+
+
+/* 
+.heartShape {
+    width: 30px;
+    height: 30px;
+    background: #c4c4c4;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.heartShape::before, .heartShape::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    background: #c4c4c4;
+}
+
+.heartShape::before {
+    left: -50%;
+}
+
+.heartShape::after {
+    top: -50%;
+    left: -0%;
+}
+
+.heartShape:active {
+    width: 30px;
+    height: 30px;
+    background: #ea2027;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.heartShape::before:active, .heartShape::after:active {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    background: #ea2027;
+}
+
+.heartShape::before:active {
+    left: -50%;
+}
+
+.heartShape::after:hover {
+    top: -50%;
+    left: -0%;
+} */
