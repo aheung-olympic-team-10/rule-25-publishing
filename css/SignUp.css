@@ -2,3 +2,121 @@ body {
     background-color: lightgray;
 }
 
+.signUpContentArea {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.RULE25logo {
+    width: 120px;
+    display: flex;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.signUpFuncSection {
+    margin-top: 50px;
+    width: 600px;
+    text-align: center;
+    margin-left: 26%;
+
+}
+
+.emailInput {
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color:#000000;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.emailInput::placeholder {
+    color: #808080;
+}
+
+.passwordInput {
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color:#000000;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.passwordInput::placeholder {
+    color: #808080;
+}
+
+.usernameInput {
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color:#000000;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.usernameInput::placeholder {
+    color: #808080;
+}
+
+.saveInput {
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color:#000000;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.saveInput::placeholder {
+    color: #808080;
+}
+
+.useInput {
+    width: 500px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color:#000000;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.useInput::placeholder {
+    color: #808080;
+}
+
+.signUpBtn {
+    width: 520px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: #FF615B;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 20px;
+}
+
