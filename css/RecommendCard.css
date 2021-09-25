@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+.profileImg {
+    width: 70px;
+    height: 70px;
+    filter: drop-shadow(5px 5px 5px #9e9e9e);
+}
+
+.recommendElement {
+    float: left;
+    width: 180px;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 35px;
+    border: 0;
+    margin: 0;
+    box-shadow: 1px 1px 1px 1px #c3c3c3;
+    border-radius: 7px;
+}
+
+.userName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.introText {
+    font-size: 12px;
+    color: #8f8f8f;
+}
+
+.followBtn {
+    border: none;
+    outline: none;
+    padding: 5px 15px 5px 15px;
+    color: #ffffff;
+    background-color: rgb(253, 92, 92);
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
