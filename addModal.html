@@ -14,43 +14,30 @@
 <div id="addModal" class="modal">
 
     <div class="modal-content">
-        <table class="addTable">
-            <tr>
-                <th>이름</th>
-                    <td> <input type="text" class="nameInput" /></td>
-            </tr>
-            <tr>
-                <th>금액</th>
-                <td> <input type="text" class="amountInput" /></td>
-            </tr>
-            <tr>
-                <th>추가 정보</th>
-                <td> <input type="text" class="extraInput" /></td>
-            </tr>
-            </table>
-        </body>
+        <div class="inputElement">이름<input type="text" class="nameInput" /></div>
+        <div class="inputElement">금액<input type="text" class="amountInput" /></div>
+        <div class="inputElement">추가 정보<input type="text" class="extraInput" /></div>
           <div class="addBtn" onClick="add_pop();">
-              <span class="pop_bt" style="font-size: 13pt;" >
+              <span class="pop_bt">
                    추가하기
               </span>
           </div>
     </div>
   
   </div>
-      <!--End Modal-->
   
   
-  <script type="text/javascript">
-    
-      jQuery(document).ready(function() {
-              $('#addModal').show();
-      });
-      //팝업 Close 기능
-      function add_pop(flag) {
-           $('#addModal').hide();
-      };
-      
-    </script>
+        <script type="text/javascript">
+            
+            jQuery(document).ready(function() {
+                    $('#addModal').show();
+            });
+            //추가하기 버튼 클릭 시
+            function add_pop(flag) {
+                $('#addModal').hide();
+            };
+        </script>
+    </body>
     
 </body>
 </html>
