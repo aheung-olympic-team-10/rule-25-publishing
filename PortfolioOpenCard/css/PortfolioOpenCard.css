@@ -1,0 +1,130 @@
+@charset "urf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+    background-color: blanchedalmond
+}
+
+.portfolio_card{
+    font-family: "Noto Sans KR", sans-serif;
+    display: flex;
+    background-color: white;
+    width: 573px;
+    height: 250px;
+    box-shadow: 5px 5px 8px #B2B2B229;
+    border-radius: 6px;
+    opacity: 1;
+    flex-direction: column;
+}
+
+.open_list{
+    display: flex;
+    width: fit-content;
+    align-items: flex-start;
+    margin-top: 28px;
+    margin-left: 240px;
+    font-size: 18px;
+    color: #A8A8A8;
+}
+
+.open{
+    margin-right: 80px;
+}
+
+
+.close{
+    margin-left:70px;
+}
+
+.graph_list{
+    display: flex;
+    width: fit-content;
+    align-items: flex-start;
+    color: #A8A8A8;
+    margin-top: 30px;
+}
+
+.graph{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.graph_button_list{
+    margin-left: 56.5px;
+}
+
+.graph_button{
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    border: none;
+    outline: none;
+    background-color: #CBCACA;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+#graph_close{
+    background-color: #FF615B;
+}
+
+.property_list{
+    display: flex;
+    width: fit-content;
+    align-items: flex-start;
+    color: #A8A8A8;
+    margin-top: 20px;
+}
+
+.property{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.property_button{
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    border: none;
+    outline: none;
+    background-color: #CBCACA;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+#property_open_friend{
+    background-color: #FF615B;
+}
+
+.record_list{
+    display: flex;
+    width: fit-content;
+    align-items: flex-start;
+    color: #A8A8A8;
+    margin-top: 20px;
+}
+
+.record{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.record_button_list{
+    margin-left: 0.7px;
+}
+
+.record_button{
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    border: none;
+    outline: none;
+    background-color: #CBCACA;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+#record_open{
+    background-color: #FF615B;
+}
+
