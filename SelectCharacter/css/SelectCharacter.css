@@ -1,0 +1,68 @@
+@charset "urf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+    background-color: blanchedalmond
+}
+
+.character_box{
+    font-family: "Noto Sans KR", sans-serif;
+    display: flex;
+    background-color: white;
+    width: 861px;
+    height: 309px;
+    box-shadow: 5px 5px 8px #B2B2B229;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.character1_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.character_button{
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    border: none;
+    outline: none;
+    background-color: #CBCACA;
+    cursor: pointer;
+    margin-top: 43px;
+    margin-left: 27px;
+}
+
+.character2_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 44px;
+}
+
+.character3_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 65.5px;
+}
+
+.character4_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    margin-top: 53px;
+}
+
+.character5_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 49.4px;
+}
+
+#character3_button{
+    background-color: #FF615B;
+}
